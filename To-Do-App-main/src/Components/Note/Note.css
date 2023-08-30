@@ -1,0 +1,35 @@
+.note{
+    padding: 23px;
+    height: 280px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: blueviolet;
+}
+ /* flex:1 is the mixture of flex-grow flex-basis and flex-shrink.
+ in short it occupies more space of those which have more flex */
+.note_text{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+}
+.note_footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+}
+
+.note_footer img{
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+}
+.note:hover .note_footer img{
+    opacity: 1;
+}

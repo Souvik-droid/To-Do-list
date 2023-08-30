@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/* This is called CSS reset/reside. Browser includes some external padding and margin ,we have to remove it for better flexibilty.
+and here box-sizing : border-box means ,the width is including padding .otherwise width will be considered excluding the padding */
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','pangolin' */
+    font-family: -apple-system, BlinkMacSystemFont, 'Pangolin',
+    cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(20, 21, 23);
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

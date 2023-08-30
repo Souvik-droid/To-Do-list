@@ -1,0 +1,19 @@
+.note-container{
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.note-container h1 {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.note-container_notes {
+    padding-top: 1%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    overflow-y: scroll;
+}
